@@ -1,0 +1,6 @@
+<mapper namespace = "com.example.mapper.carMapper">
+    <select id="getAllYourEntities" resultType="com.example.dataproject.Entity.car">
+        SELECT * FROM users;
+    </select>
+
+</mapper>
